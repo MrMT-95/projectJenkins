@@ -6,3 +6,4 @@ windows_bit_version = platform.architecture()[0]
 
 print(python_version)
 print(windows_bit_version)
+print('Moja zona jest the best!')
