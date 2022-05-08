@@ -9,6 +9,8 @@ pipeline {
 //                 bat 'ipconfig'
 //                 bat 'cd'
 //                 bat 'test_file.py'
+                def path = WORKSPACE
+                echo path
                 bat 'python -m pytest pytest_test.py'
             }
         }
