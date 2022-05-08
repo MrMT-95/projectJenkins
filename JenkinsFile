@@ -5,10 +5,11 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Hello World!'
-                echo "OS is ${OS}"
+//                 echo "OS is ${OS}"
 //                 bat 'ipconfig'
-                bat 'cd'
-                bat 'test_file.py'
+//                 bat 'cd'
+//                 bat 'test_file.py'
+                bat 'python -m pytest pytest_test.py'
             }
         }
     }
