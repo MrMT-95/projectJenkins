@@ -7,7 +7,7 @@ pipeline {
                 echo 'Hello World!'
 //                 bat 'ipconfig'
                 bat 'cd'
-                sh 'test_file.py'
+                bat 'test_file.py'
             }
         }
     }
