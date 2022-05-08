@@ -9,7 +9,7 @@ pipeline {
 //                 bat 'ipconfig'
 //                 bat 'cd'
 //                 bat 'test_file.py'
-                echo ${WORKSPACE}
+                echo "${WORKSPACE}"
                 bat 'python -m pytest pytest_test.py'
             }
         }
