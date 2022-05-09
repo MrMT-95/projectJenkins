@@ -8,9 +8,9 @@ pipeline {
 //                 echo "OS is ${OS}"
 //                 bat 'ipconfig'
 //                 bat 'cd'
-//                 bat 'test_file.py'
+                bat 'test_file.py'
                 echo "${WORKSPACE}"
-                bat 'python -m pytest pytest_test.py'
+//                 bat 'python -m pytest pytest_test.py'
             }
         }
     }
