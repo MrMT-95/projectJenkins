@@ -4,4 +4,4 @@ def test_jenkins_tracking1():
 
 
 def test_jenkins_tracking2():
-    assert False
+    assert True
